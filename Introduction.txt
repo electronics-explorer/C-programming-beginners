@@ -88,3 +88,26 @@ int main(){printf("Hello World!);return 0;}
 Remember : The compiler ignores the blank spaces and new lines, but using multiple lines makes code easier to read.
 return 0; -> return 0 ends the main function and sends a value back to the operating system. Returning 0 usually means "everything worked." You will learn about return values later. 
 -> Do not forget the closing curly bracket to end the main function. 
+
+C statements:
+Statement:
+A program is a list of instructions that a computer follows:
+In C, these instructions are called statements.
+The following statement tells the program to print the text "Hello World!" to the screen:
+Every statement in C must end with a semicolon (;).
+If you forget the semicolon, the compiler will show an error and the program will not run.
+
+Many statements:
+Most C programs contain more than one statement.
+Statements are executed one by one in the same order as they are written.
+printf("Hello World!"); -> The first statement runs first and prints Hello World!
+printf("Have a good day"); -> Then the second statement runs and prints "Have a good day!"
+return 0; -> Finally the last statement runs and it must end with a semicolon.
+
+Code challenge: Create a simple C program.
+Test your understanding of C by completing a small coding challenge:
+Instructions:
+Use the editor to complete the following steps:
+1> Write a main function.
+2> Use printf() to print Hello C!
+3> End the program with return 0.
