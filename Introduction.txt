@@ -36,3 +36,18 @@ Now, let's get started :
 This tutorial will teach you the basics of C, step by step.
 You will learn how to write C programs, understand what the code means and build small projects along the way. 
 It's not necessary to have any prior programming experience. 
+
+Install C
+If you want to run C programs on your computers, you need to have two things:
+-> A text editor to write C code
+-> A compiler to turn that C code into a program that computer can run.
+The compiler runs your C code and translates it into machine code.
+There are many editors and compilers. To make things easier, most people use an IDE which includes both. 
+
+Install IDE
+An IDE (Integrated Development Environment) is a program that helps you write, compile and run the code. 
+Popular IDEs include Code::Blocks, Eclipse and Visual Studio
+These are free tools that can also help you find error in your code:
+Note : Web-based IDEs can also work, but they often have limited features. 
+
+Choose the "mingw-setup.exe" file, which includes both the editor and the compiler. 
