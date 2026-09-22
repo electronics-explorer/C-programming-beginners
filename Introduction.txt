@@ -1,0 +1,38 @@
+Introduction to C
+
+What is C?
+
+C is a general purpose programming language created by Dennis Ritchie at Bell Labs in 1972.
+
+It is popular because it is widely supported and fast and helps you understand how programs work "under the hood".
+
+The main reason for its popularity is because it is the fundamental language in the field of computer science. 
+
+C is closely connected to UNIX, because much of UNIX is written in C. 
+
+What is C used for?
+
+C is often used to create programs that need to run fast and work closely with computer.
+-> Operating systems such as parts of Windows, Linux and macOS.
+-> Program inside devices : tcars, TVs, & home electronics
+-> game engines and programs that handle graphics.
+-> core libraries that other programming languages rely on.
+
+For curious learners: C has different language standards : C90, C99, C11, C17 and other newer versions. This tutorial focuses on modern, widely supported C and we point out important differences when it matters.
+
+Why learn C?
+-> It is one of the widely used programming languages.
+-> If you know C, you will have no problem learning other popular programming languages such as: Java, Python, C++, C# etc. as the syntax is similar.
+-> It helps you to understand memory, performance and how computer handles data. 
+-> C is very versatile, it can be used in both applications and technologies. 
+
+Difference between C and C++
+-> C++ was developed as an extension of C, and the syntax is often similar.
+-> C is mainly a procedural language ( you build programs with functions).
+-> C++ supports classes and objects (often used for object oriented programming).
+Note : C can still organize data using structures and you can build large programs in C too. C++ just offers additional features (like classes) on top. 
+
+Now, let's get started :
+This tutorial will teach you the basics of C, step by step.
+You will learn how to write C programs, understand what the code means and build small projects along the way. 
+It's not necessary to have any prior programming experience. 
