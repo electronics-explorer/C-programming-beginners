@@ -1,6 +1,6 @@
 Introduction to C
 
-What is C?
+What is C? : 
 
 C is a general purpose programming language created by Dennis Ritchie at Bell Labs in 1972.
 
@@ -10,7 +10,7 @@ The main reason for its popularity is because it is the fundamental language in 
 
 C is closely connected to UNIX, because much of UNIX is written in C. 
 
-What is C used for?
+What is C used for? : 
 
 C is often used to create programs that need to run fast and work closely with computer.
 -> Operating systems such as parts of Windows, Linux and macOS.
@@ -20,13 +20,13 @@ C is often used to create programs that need to run fast and work closely with c
 
 For curious learners: C has different language standards : C90, C99, C11, C17 and other newer versions. This tutorial focuses on modern, widely supported C and we point out important differences when it matters.
 
-Why learn C?
+Why learn C? : 
 -> It is one of the widely used programming languages.
 -> If you know C, you will have no problem learning other popular programming languages such as: Java, Python, C++, C# etc. as the syntax is similar.
 -> It helps you to understand memory, performance and how computer handles data. 
 -> C is very versatile, it can be used in both applications and technologies. 
 
-Difference between C and C++
+Difference between C and C++ : 
 -> C++ was developed as an extension of C, and the syntax is often similar.
 -> C is mainly a procedural language ( you build programs with functions).
 -> C++ supports classes and objects (often used for object oriented programming).
@@ -37,17 +37,37 @@ This tutorial will teach you the basics of C, step by step.
 You will learn how to write C programs, understand what the code means and build small projects along the way. 
 It's not necessary to have any prior programming experience. 
 
-Install C
+Install C :
 If you want to run C programs on your computers, you need to have two things:
 -> A text editor to write C code
 -> A compiler to turn that C code into a program that computer can run.
 The compiler runs your C code and translates it into machine code.
 There are many editors and compilers. To make things easier, most people use an IDE which includes both. 
 
-Install IDE
+Install IDE :
 An IDE (Integrated Development Environment) is a program that helps you write, compile and run the code. 
 Popular IDEs include Code::Blocks, Eclipse and Visual Studio
 These are free tools that can also help you find error in your code:
 Note : Web-based IDEs can also work, but they often have limited features. 
 
 Choose the "mingw-setup.exe" file, which includes both the editor and the compiler. 
+
+C Quickstart :
+Let's create our first C file:
+
+Write the following code and save the file as: myfirstprogram.c
+#include<stdio.h>
+int main()
+{
+    printf("Hello World");
+    return 0;
+}
+Note : C source files always end with .c
+
+Result
+Hello World
+
+If you see the message above, your setup is working correctly. 
+Congratulations! You have now written and executed your first C program.
+
+What just happened? You wrote C code, the compiler turned it into program and computer ran it. This is the basic workflow you will use throughout the tutorial. 
